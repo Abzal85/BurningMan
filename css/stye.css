@@ -1,0 +1,127 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;
+font-family: 'Anton', sans-serif;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+/*--------------------*/
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(/img/header-bg.jpg) no-repeat center top/cover;
+    padding-top: 57px;
+}
+
+.header a{
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+}
+
+.menu li{
+    margin-right: 40px;
+    
+}
+
+.tel{
+    font-size: 17px;
+    margin-left: auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-right: 69px;
+}
+
+.nav_top{
+    margin-top: 322px;
+}
+
+.nav_top h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+
+}
+
+.nav_top p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+}
+
+.nav_top a{
+    margin-top: 30px;
+    margin-bottom: 322px;
+    padding: 10px 25px;
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 210px;
+    text-align: center;
+}
+
+h2.text{
+    font-size: 32px;
+    margin: 113px 0 58px;
+}
+
+.content_text{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.content_text_box{
+    width: 564px;
+    margin-right: 36px;
+}
+
+.content_text_box h3{
+    font-family: Anton, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.content_text_box P{
+    text-align:justify;
+    
+}
+
+.content_img{
+    display: flex;
+}
+
+.content_img img{
+    margin-right: 30px;
+}
